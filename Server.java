@@ -21,7 +21,7 @@ public class Server {
         }
     }
 
-    public ArrayList<LocalDateTime> getConnectedTimes() {
+    public ArrayList<LocalDateTime> getConnectedTimes() { 
         return new ArrayList<>();  // Empty implementation
     }
 
