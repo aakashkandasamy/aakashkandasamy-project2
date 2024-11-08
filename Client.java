@@ -16,16 +16,19 @@ public class Client {
         return socket;
     }
 
-    public void handshake() {
+    public void handshake() throws IOException {
         out.println("12345");
+        out.flush();
     }
 
     public String request(String number) throws IOException {
         out.println(number);
-        return in.readLine();  // Get server response
+        return in.readLine();
     }
 
     public void disconnect() throws IOException {
+        in.close();
+        out.close();
         socket.close();
     }
 }
