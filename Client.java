@@ -3,9 +3,11 @@ import java.net.*;
 
 public class Client {
     private Socket socket;
+    private PrintWriter out;
 
     public Client(String host, int port) throws IOException {
         this.socket = new Socket(host, port);
+        this.out = new PrintWriter(socket.getOutputStream(), true);
     }
 
     public Socket getSocket() {
@@ -13,7 +15,7 @@ public class Client {
     }
 
     public void handshake() {
-        // Not implemented yet
+        out.println("12345");  // Send handshake passcode
     }
 
     public String request(String number) {

@@ -14,15 +14,20 @@ public class Server {
         for (int i = 0; i < clientCount; i++) {
             try {
                 Socket clientSocket = serverSocket.accept();
-                // No handshake or request handling implemented yet
+                BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
+                String handshake = in.readLine();
+                if (!"12345".equals(handshake)) {
+                    clientSocket.close();
+                }
+                // No further request handling
             } catch (IOException e) {
                 e.printStackTrace();
             }
         }
     }
 
-    public ArrayList<LocalDateTime> getConnectedTimes() { 
-        return new ArrayList<>();  // Empty implementation
+    public ArrayList<LocalDateTime> getConnectedTimes() {
+        return new ArrayList<>();
     }
 
     public void disconnect() {
