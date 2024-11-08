@@ -1,0 +1,53 @@
+commit e0d1a7231d707871381753aa43cbc07fb9e1af66
+Author: aakashkandasamy <aakashkandasamy@gmail.com>
+Date:   Fri Nov 8 15:48:15 2024 -0500
+
+    Testing
+
+commit 012d5cd7e33e64d63d52c803ff500cd1ed65af24
+Author: aakashkandasamy <aakashkandasamy@gmail.com>
+Date:   Fri Nov 8 15:35:23 2024 -0500
+
+    Responses
+
+commit bac2e98b22441c9098dc3102bb07881a395adb69
+Author: aakashkandasamy <aakashkandasamy@gmail.com>
+Date:   Fri Nov 8 15:15:44 2024 -0500
+
+    Trying to do the handshaking
+
+commit 09365bff0eaab319a7cb92764d878850dd4ccc04
+Author: aakashkandasamy <aakashkandasamy@gmail.com>
+Date:   Fri Nov 8 15:14:33 2024 -0500
+
+    Update Server.java
+
+commit 15f421490fd62635d08932cafa11f653a47110a3
+Author: aakashkandasamy <aakashkandasamy@gmail.com>
+Date:   Fri Nov 8 14:44:00 2024 -0500
+
+    Setting socket connections
+
+commit af51680aa72f1de64b8b27c0814023769614cdb1
+Author: aakashkandasamy <aakashkandasamy@gmail.com>
+Date:   Fri Nov 8 14:37:14 2024 -0500
+
+    Create Project2_Tester.java
+
+commit 82e75be036f106f16c2d00fc0368f0acffa1f0e3
+Author: aakashkandasamy <aakashkandasamy@gmail.com>
+Date:   Wed Nov 6 15:55:48 2024 -0500
+
+    Creating the files
+
+commit 0f38b7f695ee528ec4eb5da894fda6b5d4fc2972
+Author: aakashkandasamy <67540149+aakashkandasamy@users.noreply.github.com>
+Date:   Wed Nov 6 15:54:28 2024 -0500
+
+    Create Server.java
+
+commit f25d0f760adf726465ca380724f283b6138db6d9
+Author: aakashkandasamy <67540149+aakashkandasamy@users.noreply.github.com>
+Date:   Wed Nov 6 15:54:18 2024 -0500
+
+    Create Client.java
